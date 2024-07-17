@@ -1,25 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_putunbr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mariaoli <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: mariaoli <mariaoli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/04/10 15:45:55 by mariaoli          #+#    #+#             */
-/*   Updated: 2024/04/10 15:45:56 by mariaoli         ###   ########.fr       */
+/*   Created: 2024/04/30 13:53:08 by mariaoli          #+#    #+#             */
+/*   Updated: 2024/04/30 17:00:15 by mariaoli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlen(const char *s)
+int	ft_putunbr(unsigned int n)
 {
-	size_t	i;
+	int	count;
 
-	i = 0;
-	if (s == NULL)
-		return (0);
-	while (s[i] != '\0')
-		i++;
-	return (i);
+	count = 0;
+	if (n > 9)
+	{
+		count += ft_putunbr(n / 10);
+		count += ft_putunbr(n % 10);
+	}
+	else
+		count += ft_putchar(n + '0');
+	return (count);
 }
