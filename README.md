@@ -22,7 +22,7 @@
 
  Clone the repository: 
  ```shell
-git clone https://github.com/marianaobmoraislibft.git
+git clone https://github.com/marianaobmorais/libft.git
 ```
  Enter the clonned directory:
  ```shell
