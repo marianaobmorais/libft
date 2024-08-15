@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="https://img.shields.io/github/last-commit/marianaobmorais/libft?color=%2312bab9&style=flat-square"/>
+</p>
+
 # libft
 
 #### Ongoing project
@@ -52,6 +56,10 @@ Include the static library `libft.a` to your project folder and when compiling y
 ```shell
 cc -Wall -Werror -Wextra your_project.c libft.a
 ```
+
+## The Norm
+
+This project is written in accordance to the 42 School's "The Norm" (_Version 4_). To review the Norm, [click here](https://github.com/42School/norminette/blob/master/pdf/en.norm.pdf).
 
 ## Contributions
 
