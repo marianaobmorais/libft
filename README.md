@@ -16,7 +16,7 @@
  1) recoding implementing functions from the libc with the same prototypes and behaviors as the originals – the sole difference will be their names, they will begin with the ’ft_’ prefix. For instance, strlen becomes ft_strlen – and
  2) developing a set of functions that are either not in the libc, or that are part of it but in a different form.
 
- It also has a bonus part, which focuses on linked list manipulation.
+ This project also has a bonus part, which focuses on linked list manipulation and was also added in this repository.
 
 ## Build
 
@@ -28,7 +28,7 @@ git clone https://github.com/marianaobmorais/libft.git
  ```shell
 cd libft
 ```
-Finally, run `make all` to compile mandatory and bonus parts:
+Finally, run `make all` to compile the libft library:
 ```shell
 make all
 ```
