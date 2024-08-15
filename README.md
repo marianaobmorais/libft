@@ -35,7 +35,7 @@ make all
 
 ## Usage
 
-Add `#include "<path>/libft.h"` to your source file that is using functions to the library.  
+Add `#include "<path>/libft.h"` to your source file that uses the libft library functions.  
 Substitute `<path>` for the path to the libft folder: 
 
 ```c
