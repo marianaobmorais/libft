@@ -1,5 +1,7 @@
 # libft
 
+#### Ongoing project
+
 ## About
 
  Throughout the 42 cursus, we are rarely allowed to use functions we did not code ourselves. This project is about understanding how some of functions from the libc work, recoding them and implementing them.
