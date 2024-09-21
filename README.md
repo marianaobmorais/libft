@@ -28,7 +28,7 @@ git clone https://github.com/marianaobmorais/libft.git
  ```shell
 cd libft
 ```
-Finally, run `make all` to compile the libft library:
+Run `make all` to compile the libft library:
 ```shell
 make all
 ```
